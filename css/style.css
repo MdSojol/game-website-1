@@ -77,16 +77,31 @@ body {
     font-weight: 700;
     font-style: normal;
     font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    
 }
+.header-menu-right>ul li>button:hover{
+    
+}
+
 
 .header-menu-right>ul li>button>i {
     padding-left: 8px;
 }
-
+.header-menu-right>ul li>button>i:hover{
+    cursor: pointer;
+}
+.main-main-body {
+    background-image: url("../images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
 
 .main-body {
     display: flex;
     justify-content: space-between;
+
 
 }
 
@@ -118,39 +133,160 @@ body {
     color: #534C64;
     font-size: 20px;
 }
-.main-body-left p>img{
+
+.main-body-left p>img {
     padding-right: 13px;
 }
-.main-body-left p .main-body-icon-1{
+
+.main-body-left p .main-body-icon-1 {
     padding-right: 15px;
+    color: #FF42A5;
 }
-.main-body-left p .main-body-icon-2{
+
+.main-body-left p .main-body-icon-2 {
     padding-right: 7px;
 }
 
 
-.main-body-left-icon-1{
+.main-body-left-icon-1 {
     display: flex;
     align-items: center;
 }
 
-.main-body-right{
+.main-body-right {}
+
+
+.main-body-right-img {}
+
+.main-body-right-img img {}
+
+
+.button-signin-rogue {
+    margin-top: 34px;
 
 }
 
+.button-signin-rogue>button {
+    padding: 0px 42px;
+    font-size: 20px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    letter-spacing: 1px;
 
-.main-body-right-img{
+}
+
+.button-signin-rogue-btn-1 {
+    background-color: #FF42A5;
+}
+
+.button-signin-rogue-btn-2 {
+    background-color: #4EC5F7;
+
+}
+.button-signin-rogue-btn-1:hover {
+    background-color: #fd0083;
+    cursor: pointer;
+}
+
+.button-signin-rogue-btn-2:hover {
+    background-color: #00b3ff;
+    cursor: pointer;
+
+}
+
+.first-section{
+    background-color: #FFF9FC;
+
+
+}
+
+.first-section-main-class{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.first-section-left{
+    
+
     
 }
 
-.main-body-right-img img{
+.first-section-right{
+    text-align: right;
+    
+}
+
+.first-section-right-document{
+
+}
+
+.first-section-right-document h2{
+    background: -webkit-linear-gradient(#F948B2, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    margin-bottom: 10px;
 }
 
 
-.button-signin-rogue{
-
+    
+.first-section-right-document p{  
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #3c354fdf;
 }
-.button-signin-rogue button{
-    padding: 0px 12px;
+
+
+    
+.first-section-right-document > button{
+    padding: 0px 35px;
     font-size: 20px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    letter-spacing: 1px;
+    background-color: #F948B2 ;
+    margin: 14px 0px;
 }
+.first-section-right-document > button:hover{
+
+    background-color: #ec1e9a;
+    cursor: pointer;
+
+}
+.first-section-right-document > h3{
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+    color: #232324bc;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
