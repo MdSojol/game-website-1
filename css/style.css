@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    width: 1300px;
+    margin: auto;
+}
+
+.header {
+    box-shadow: 0px 1px 20px -14px black;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo-left img {
+    height: 40px;
+    width: 86.04px;
+    margin: 10px 0px;
+}
+
+.header-logo-left>h3 {
+    margin: 0px 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+
+}
+
+.header-logo-left .logo-g {
+    color: #FF42A5;
+}
+
+.header-menu-right {
+    justify-content: right;
+}
+
+.header-menu-right {}
+
+.header-menu-right>ul {
+    display: flex;
+    align-items: center;
+
+}
+
+.header-menu-right>ul li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px 14px;
+
+}
+
+.header-menu-right>ul li a {
+    text-decoration: none;
+    color: #3C354F;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.header-menu-right>ul li>button {
+    width: 250px;
+    height: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.header-menu-right>ul li>button>i {
+    padding-left: 8px;
+}
+
+
+.main-body {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-body-left {}
+
+.main-body-left h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    margin: 130px 0px 0px 0px;
+}
+
+.main-body-left h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 95px;
+    margin: 20px 0px 20px -2px;
+    background: -webkit-linear-gradient(#F948B2, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-body-left p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #534C64;
+    font-size: 20px;
+}
+.main-body-left p>img{
+    padding-right: 13px;
+}
+.main-body-left p .main-body-icon-1{
+    padding-right: 15px;
+}
+.main-body-left p .main-body-icon-2{
+    padding-right: 7px;
+}
+
+
+.main-body-left-icon-1{
+    display: flex;
+    align-items: center;
+}
+
+.main-body-right{
+
+}
+
+
+.main-body-right-img{
+    
+}
+
+.main-body-right-img img{
+}
+
+
+.button-signin-rogue{
+
+}
+.button-signin-rogue button{
+    padding: 0px 12px;
+    font-size: 20px;
+}
