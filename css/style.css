@@ -833,9 +833,8 @@ body {
 
 
 
-.fifth-section-right{
-
-    
+.fifth-section-right {
+    margin-top: 30px;
 }
 
 .fifth-section-right img{
@@ -854,6 +853,160 @@ body {
     font-style: normal;
     color: #F948B2;
     letter-spacing: 1px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     margin: 32px 0px;
+}
+
+
+.fifth-section-main .fifth-section-left button:hover{
+   
+    color: #ff4db8;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.six-section{
+    display: flex;
+    height: 250px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+}
+
+.six-section .item{
+    width: 20%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    padding: 8px;
+    
+
+}
+.six-section .item:hover{
+    border: 3px solid #FF42A5;
+    border-radius: 42px;
+    
+
+}
+
+.six-section .item h3{
+    margin-left: 22px;
+
+}
+
+.six-section .item > h3 > a{
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.footer{
+    background-color: #0B0223;
+}
+
+.footer-logo{
+   text-align: center;
+   padding: 80px 0px 20px 0px;
+}
+
+.footer-logo img{
+    width: 200px;
+}
+
+.footer-item{
+    
+}
+
+.footer-item ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-item ul li{
+    list-style: none;
+    padding: 8px 18px;
+
+}
+
+.footer-item ul li a{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.footer-brand-logo{
+
+}
+
+.footer-brand-logo ul{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+
+.footer-brand-logo ul li{
+    list-style: none;
+    padding: 16px 22px;
+
+}
+
+.footer-brand-logo ul li a{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 32px;
+
+}
+
+.footer-private-setting{
+
+}
+
+.footer-private-setting ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+
+}
+
+
+.footer-private-setting ul li{
+    list-style: none;
+    padding: 16px 22px;
+
+}
+
+.footer-private-setting ul li a{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #ffffffde;
+    font-size: 12px;
+
+}
+
+
+.footer-website-copyright{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.881);
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 11px;
+}
+
+
+.footer-website-copyright h5{
+    margin: 0px;
+    padding-bottom: 50px;
+    padding-top: 20px;
 }
