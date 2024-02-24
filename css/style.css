@@ -91,6 +91,7 @@ body {
 }
 .header-menu-right>ul li>button>i:hover{
     cursor: pointer;
+    color: red;
 }
 .main-main-body {
     background-image: url("../images/Group\ 14.png");
@@ -622,6 +623,237 @@ body {
 
 }
 
+.third-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+.third-section-left{
+    text-align: right;
+    width: 40%;
+    margin-top: 142px;
+
+}
+.third-section-left .third-section-left-first-h1{
+    background: -webkit-linear-gradient(#F948B2, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    margin: 0px;
+
+}
+
+.third-section-left .third-section-left-second-h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    margin: 0px;
+    color: #000000dd;
+
+}
+
+.third-section-left .third-section-left-third-h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    margin: 0px;
+    color: #000000dc;
+}
+
+.third-section-left > p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #272628d2;
+
+}
+
+
+.third-section-right{
+    position: relative;
+}
+
+.third-section-right-img-2{
+    position: absolute;
+    top: 66%;
+    left: -22%;
+}
+
+.third-section-right-img-2 img{
+    width: 250px;
+}
+
+
+.fourth-section{
+    display: flex;
+    margin-top: 160px;
+}
+
+.fourth-section-left{
+    position: relative;
+}
+
+.fourth-section-left-img-1{
+    
+}
+.fourth-section-left-img-1 img{
+
+   
+
+}
+
+.fourth-section-left-img-2{
+    position: absolute;
+    top: 66%;
+    left: 82%;
+}
+
+.fourth-section-left-img-2 img{
+    width: 250px;
+}
+
+.fourth-section-right{
+    margin-left: 160px;
+    margin-top: 142px;
+}
+
+.fourth-section-right-first-h3{
+    background: -webkit-linear-gradient(#F948B2, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    margin: 0px;
+}
+
+.fourth-section-right-second-h3{
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    margin: 0px;
+    color: #272628f2;
+}
+.fourth-section-right-second-h3 > span{
+    background: -webkit-linear-gradient(#bb9cfffa, #4e00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fourth-section-right-third-h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    margin: 0px;
+    color: #272628f1;
+}
+.fourth-section-right p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #272628e3;
+}
+
+.fifth-section{
+    background-image: url("../images/Rectangle\ 111.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 180px;
+    
+    height: 550px;
+}
+
+.fifth-section-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fifth-section-main .fifth-section-left{
+    width: 50%;
+}
+.fifth-section-main .fifth-section-left h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    font-size: 48px;
+    margin: 50px 0px 0px 0px;
+}
+
+.fifth-section-main .fifth-section-left p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.934);
+    font-size: 18px;
+}
+.fifth-section-main .fifth-section-left table{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.964);
+    font-size: 18px;
+}
+.fifth-section-main .fifth-section-left > table > tbody{
+    
+    
+}
+.fifth-section-main .fifth-section-left > table > tbody tr{
+    padding-bottom: 22px;
+    
+    
+    
+}
+
+.fifth-section-main .fifth-section-left > table > tbody tr th{
+    
+    text-align: start;
+    padding-right: 140px;
+    padding-bottom: 6px;
+}
+.fifth-section-main .fifth-section-left > table > tbody tr td{
+    
+    text-align: end;
+    
+}
 
 
 
+
+.fifth-section-right{
+
+    
+}
+
+.fifth-section-right img{
+    width: 600px;
+
+}
+
+.fifth-section-main .fifth-section-left button{
+    padding: 0px 42px;
+    font-size: 20px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #F948B2;
+    letter-spacing: 1px;
+    background-color: white;
+    margin: 32px 0px;
+}
