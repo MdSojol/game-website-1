@@ -317,7 +317,9 @@ body {
     gap: 30px;
     justify-content: space-around;
 }
-
+.second-section-ok{
+    width: 100%;
+}
 .second-section-lower-template-item {
 
 }
@@ -879,6 +881,8 @@ body {
     margin: auto;
     display: flex;
     padding: 8px;
+    border: 3px solid transparent;
+    border-radius: 42px;
     
 
 }
@@ -965,6 +969,10 @@ body {
     font-size: 32px;
 
 }
+.footer-brand-logo ul li a:hover i{
+    color: #fd0000;
+
+}
 
 .footer-private-setting{
 
@@ -993,6 +1001,7 @@ body {
     font-size: 12px;
 
 }
+
 
 
 .footer-website-copyright{
