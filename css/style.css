@@ -18,7 +18,7 @@ body {
     justify-content: space-between;
 }
 
-.header-logo-left {
+.header-logo-left, .header-logo-left-div {
     display: flex;
     align-items: center;
 }
@@ -29,7 +29,7 @@ body {
     margin: 10px 0px;
 }
 
-.header-logo-left>h3 {
+.header-logo-left-div >h3 {
     margin: 0px 12px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -917,6 +917,7 @@ width: 100%;
     align-items: center;
     flex-wrap: wrap;
     padding: 50px 0px;
+    height: 100%;
 }
 
 .six-section .item{
@@ -924,6 +925,7 @@ width: 100%;
     text-align: center;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
     padding: 8px;
     border: 3px solid transparent;
     border-radius: 42px;
