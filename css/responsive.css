@@ -198,7 +198,7 @@
 }
 
 
-@media  (max-width: 866px) {
+@media (min-width:701px) and  (max-width: 866px) {
     
 
     .container{
@@ -286,8 +286,18 @@
 .third-section-right{
     width: 100%;
 }
+.thrid-section-left-main {
+    width: 100%;
+    text-align: center;
+}
+.third-section {
+    display: block;
+    height: 1000px;
+}
 
-
+.fourth-section{
+    
+}
 
 
 
@@ -352,7 +362,6 @@
         margin: auto;
     }
     .fourth-section {
-        display: block;
         margin-top: 20px;
         height: 960px;
     }
@@ -371,6 +380,213 @@
     }
     .main-body-left h1{
         margin-top: 0px;
+    }
+    
+
+
+}
+
+@media  (max-width: 700px){
+
+    
+    .container{
+        width: 70%;
+    }
+    .header-container{
+        display: block;
+
+    }
+    .header-logo-left-div{
+         margin: auto;
+    }
+
+    .header-menu-right>ul{
+        display: block;
+        padding-left: 0;
+    }
+    .header-menu-right>ul li{
+        text-align: center;
+        padding: 12px 0px;
+    }
+    .header-menu-right>ul li>button{
+        padding-left: 0;
+        margin-left: -10px;}
+
+    
+    .main-body{
+        display: block;
+    }
+
+    .main-body-left{
+        width: 100%;
+    }
+    .main-body-right{
+        width: 100%;
+    }
+
+    .main-body-left-body{
+        text-align: center;
+    }
+    .main-body-left-p{
+        
+            width: 63%;
+            margin: auto;
+            text-align: left;
+        
+    }
+    .first-section-main-class{
+        display: block;
+    }
+    .first-section-left {
+        width: 100%;
+    }
+    .first-section-right {
+        width: 100%;
+    }
+    .first-section-right-document {
+        text-align: center;
+    }
+    .fifth-section-right img{
+        width: 100%;
+    }
+    .fifth-section-main{
+        display: block;
+        padding-top: 1px;
+    }
+    .fifth-section-left{
+        width: 100%;
+    }
+
+    .second-section-lower-template {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 30px;
+        justify-content: space-around;
+    }
+
+.third-section{
+    display: block;
+
+}
+.third-section-left{
+    width: 100%;
+    margin-top: 0px;
+}
+.third-section-right{
+    width: 100%;
+}
+.thrid-section-left-main {
+    width: 100%;
+    text-align: center;
+}
+.third-section {
+    display: block;
+    height: 700px;
+}
+
+.fourth-section{
+    
+}
+
+
+
+    .fifth-section-main .fifth-section-left{
+        width: 100%;
+    }
+
+    .fourth-section {
+        display: block;
+        margin-top: 160px;
+        height: 600px;
+    }
+
+    .fourth-section-left {
+        position: relative;
+        width: 90%;
+    }
+
+    .fourth-section-right {
+        padding: 102px 0px 0px 160px;
+        width: 90%;
+    }
+
+    .fourth-section {
+        display: block;
+        margin-top: 120px;
+        height: 800px;
+    }
+    .fourth-section-right {
+        padding: 0px 0px 0px 84px;
+        width: 90%;
+        /* margin: auto; */
+    }
+    .fourth-section-right-first-h3{
+        text-align: center;
+    }
+    .fourth-section-right-second-h3{
+        text-align: center;
+
+    }
+    .fourth-section-right-third-h3{
+        text-align: center;
+    }
+
+    .fourth-section-right p{
+        text-align: center;
+        padding-top: 2px;
+    }
+    .fourth-section-right {
+        padding: 0px 0px 0px 39px;
+        width: 90%;
+        /* margin: auto; */
+    }
+    .fourth-section {
+        display: block;
+        margin-top: 20px;
+        height: 800px;
+    }
+    .fourth-section-right {
+        padding: 85px 0px 0px 0px;
+        width: 90%;
+        margin: auto;
+    }
+    .fourth-section {
+        margin-top: 20px;
+        height: 780px;
+    }
+    .fifth-section {
+       height: 100%;
+    }
+    .six-section .item{
+        width: 45%;
+    }
+    .main-body-left h3 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 48px;
+        margin: 52px 0px 0px 0px;
+    }
+    .main-body-left h1{
+        margin-top: 0px;
+    }
+
+    .fourth-section-left-img-2 img {
+        width: 150px;
+    }
+    .third-section-right-img-2 img {
+        width: 150px;
+    }
+
+    .third-section-right-img-1 img {
+        right: -77px;
+    }
+
+    .fifth-section{
+        margin-top: 0px;
+    }
+    .fourth-section-right{
+        margin-bottom: 0;
     }
 
 
