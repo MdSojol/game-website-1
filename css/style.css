@@ -973,6 +973,7 @@ width: 100%;
 
 .footer-item ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -996,6 +997,7 @@ width: 100%;
 
 .footer-brand-logo ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 0;
 }
