@@ -390,7 +390,7 @@
 
     
     .container{
-        width: 70%;
+        width: 76%;
     }
     .header-container{
         display: block;
@@ -414,7 +414,8 @@
 
     
     .main-body{
-        display: block;
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .main-body-left{
@@ -541,7 +542,8 @@
         /* margin: auto; */
     }
     .fourth-section {
-        display: block;
+        display: flex;
+        flex-direction: column-reverse;
         margin-top: 20px;
         height: 800px;
     }
